@@ -1,0 +1,384 @@
+@import 'reset';
+
+body {
+  font-family: raleway;
+  position: relative;
+  color: #575859;
+  line-height: 3.5rem;
+  font-size: 2.5rem;
+}
+
+h1 { font-size: 3rem; }
+
+.msk_logo_div {
+  width: 100vw;
+  height: 5.5rem;
+  background-color: #d7d7d7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &::after {
+    width: 4rem;
+    height: 4rem;
+    background-image: url(../assets/img/msk_logo.gif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    content: '';
+  }
+}
+
+.demo_box {
+  top: 0;
+  z-index: 99999;
+  height: 100vh;
+  width: 32vw;
+  background-color: black;
+  position: fixed;
+}
+
+.left_box_demo {
+  top: 0;
+  left: 0;
+}
+
+.right_box_demo {
+  top: 0;
+  right: 0;
+}
+
+.start {
+  width: 100vw;
+  align-self: center;
+  position: absolute;
+  margin-top: 55vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 25rem;
+  justify-content: space-around;
+}
+
+.start_span {
+  color: #be0032;
+  font-weight: bold;
+  font-size: 2.8rem;
+}
+
+.start_text {
+  width: 50rem;
+  text-align: center;
+}
+
+.postcard_text {
+  width: 40rem;
+  text-align: center;
+  font-size: 1.8rem;
+  line-height: 2.6rem;
+  margin-top: 3rem;
+}
+
+.postcard_check {
+  margin-top: -1rem;
+  margin-bottom: 3rem;
+}
+
+.postcard_title {
+  height: 15rem;
+  width: 100vw;
+  color: #be0032;
+  font-size: 2.4rem;
+  position: absolute;
+  font-family: denmark;
+  font-weight: bold;
+  z-index: 9999;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(white 60%, rgba(255, 255, 255, 0));
+}
+
+.grid_word {
+  margin: 5rem auto;
+  text-shadow: -.1rem .1rem rgba(255, 255, 255, .2), .1rem -.1rem rgba(38, 38, 38, .6);
+  opacity: .2;
+  font-size: 2rem;
+}
+
+.grid_word::before {
+  content: '';
+  position: absolute;
+  color: rgba(0, 0, 0, .3);
+}
+
+.screen {
+  position: absolute;
+  top: -5.5rem;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 4;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 1.5rem;
+}
+
+.popover {
+  /*background-color: white;*/
+  color: #aaa;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 40rem;
+  height: 20rem;
+  margin-bottom: 10rem;
+
+  position: relative;
+  border: .8rem solid transparent;
+  border-radius: .8rem;
+  background-clip: padding-box;
+  padding: 1rem 1rem 5rem;
+  /*height: 30rem;*/
+  /*box-shadow: 0 3px 9px black, inset 0 0 9px white;*/
+
+  /*&::after {
+    position: absolute;
+    top: -.8rem;
+    bottom: -.8rem;
+    left: -.8rem;
+    right: -.8rem;
+    background: linear-gradient(white 0%, #41cce3 15%, #e20d37 30%, #e20d37 70%, #41cce3 85%, white 100%);
+    content: '';
+    z-index: -1;
+    border-radius: .8rem;*/
+  /*}*/
+}
+
+.mic_icon {
+  position: absolute;
+  margin-top: 18rem;
+}
+
+.red_span {
+  color: #b62b4a;
+  font-weight: bold;
+  font-size: 2.3rem;
+}
+
+.again { font-size: 2.5rem; }
+
+.word {
+  font-size: 4rem;
+  color: #47c8e9;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.hidden { display: none; }
+
+.grid {
+  text-transform: uppercase;
+  z-index: -50;
+  animation: move 6s infinite;
+}
+
+.grid_colored {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.5rem;
+  background-size: cover;
+  color: white;
+}
+
+.painting {
+  height: auto;
+  background-size: cover;
+}
+
+.gif {
+  position: absolute;
+  margin-top: -13.5rem;
+  margin-left: -13rem;
+}
+
+.painting_border {
+  background-size: cover;
+  border: .6rem solid transparent;
+  border-image: linear-gradient(white 0%, #41cce3 15%, #e20d37 30%, #e20d37 70%, #41cce3 85%, white 100%);
+  border-image-slice: 1;
+  box-shadow: .1rem .7rem 1rem #888;
+}
+
+.shout_word {
+  width: 45rem;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.shout_word_div {
+  width: 100vw;
+  align-self: center;
+  position: absolute;
+  margin-top: 17rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.shout_word_icon {
+  width: 10rem;
+  height: 10rem;
+  position: absolute;
+  background-clip: padding-box;
+  background-image: url(../assets/img/icons/button.png);
+}
+
+.canvas_div {
+  width: 100vw;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  height: 92vh;
+  align-items: flex-end;
+}
+
+canvas {
+  z-index: -99;
+  width: 35vw;
+  height: 30vh;
+}
+
+@keyframes move {
+
+  0% { margin-left: 0; }
+
+  50% { margin-left: 3rem; }
+
+  100% { margin-left: 0; }
+}
+
+.admin_general_div {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.admin_form_div { display: flex; }
+
+.admin_form_add {
+  width: 27rem;
+  height: 20rem;
+  display: flex;
+  align-items: space-between;
+  flex-direction: column;
+  padding: 3rem;
+}
+
+.admin_button {
+  background-color: #41cce3;
+  border: none;
+  border-radius: 1.5rem;
+  margin-top: 1rem;
+  margin-left: -1.5rem;
+  width: 8rem;
+  color: white;
+  box-shadow: .1rem .3rem 1rem #888;
+  align-self: center;
+}
+
+.admin_title {
+  color: #e20d37;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.admin_title_keyword { margin-top: 4rem; }
+
+.admin_subtitle { font-size: 1.4rem; }
+
+.admin_active_painting {
+  display: flex;
+  flex-direction: column;
+}
+
+.input_file { display: none; }
+
+.input_text { margin-left: 1rem; }
+
+.input_select {
+  border: 1px solid #41cce3;
+  background-color: transparent;
+  border-radius: 0;
+  padding: .5rem;
+  margin: 1rem;
+  width: 14rem;
+  outline: none;
+}
+
+.admin_p_tag { font-size: 1.2rem; }
+
+.admin_keywords {
+  display: flex;
+  flex-wrap: wrap;
+  width: 40rem;
+  justify-content: space-between;
+  padding-bottom: 10rem;
+}
+
+.admin_keyword_count_div {
+  display: flex;
+  width: 15rem;
+  justify-content: space-between;
+
+  & .admin_word_count {
+    color: #34cfe6;
+
+    & span { align-self: flex-start; }
+  }
+}
+
+@media (width <= 1400px) {
+
+  .demo_box {
+    width: 27vw;
+  }
+}
+
+@media (width <= 1080px) {
+
+  .demo_box {
+    width: 20vw;
+  }
+}
+
+@media (width <= 840px) {
+
+  .demo_box {
+    display: none;
+  }
+}
+
+@media (width <= 500px) {
+
+  .admin_form_div { flex-direction: column; }
+
+  .admin_form_add { height: 16rem; }
+
+  .admin_title { margin-top: 4rem; }
+
+  .admin_keywords {
+    flex-wrap: no-wrap;
+    flex-direction: column;
+    align-items: center;
+    width: 40rem;
+  }
+
+  .admin_keyword_count_div {
+    width: 25rem;
+  }
+}
