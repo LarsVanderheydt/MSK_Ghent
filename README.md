@@ -6,7 +6,8 @@
 [Admin page](https://salty-refuge-78411.herokuapp.com/admin) 
 </br>
 [Behance Page](https://www.behance.net/gallery/57456197/MSK-Museum-of-Fine-Arts-Ghent)
-
+</br>
+[After Movie](https://vimeo.com/236486316)
 
 
 ### Technologies used in this project are
@@ -18,12 +19,15 @@
 ### Yves 
 - [Github](https://github.com/YvesMeeuws)
 - [Behance](https://www.behance.net/meeuws_yve51c2)
+- [Vimeo](https://vimeo.com/user81641145)
 - [LinkedIn](https://www.linkedin.com/in/yves-laurent-meeuws-004806160/)
 
 ### Louise
 - [Behance](https://www.behance.net/louisedebrauwer)
+- [Vimeo](https://vimeo.com/louisedebrauwer)
 - [LinkedIn](https://www.linkedin.com/in/louisedebrauwer/)
 
 ### Myself 
 - [Github](https://github.com/LarsVanderheydt)
+- [Vimeo](https://vimeo.com/user68222364)
 - [LinkedIn](https://www.linkedin.com/in/lars-vanderheydt/)
