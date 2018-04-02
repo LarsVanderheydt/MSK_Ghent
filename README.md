@@ -1,8 +1,8 @@
 # [MSK Gent Campagin](https://salty-refuge-78411.herokuapp.com/story)
 
 ```additional```
-[Admin page](https://salty-refuge-78411.herokuapp.com/admin) 
-[Behance Page](https://www.behance.net/gallery/57456197/MSK-Museum-of-Fine-Arts-Ghent)
+\[Admin page](https://salty-refuge-78411.herokuapp.com/admin) 
+\[Behance Page](https://www.behance.net/gallery/57456197/MSK-Museum-of-Fine-Arts-Ghent)
 
 
 ### A campaign to attract people to art, specifically to the MSK museum in Ghent 
