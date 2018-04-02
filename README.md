@@ -2,8 +2,9 @@
 #### A campaign to attract people to art, specifically to the MSK museum in Ghent 
 
 ```additional```
+</br>
 [Admin page](https://salty-refuge-78411.herokuapp.com/admin) 
-&
+</br>
 [Behance Page](https://www.behance.net/gallery/57456197/MSK-Museum-of-Fine-Arts-Ghent)
 
 
