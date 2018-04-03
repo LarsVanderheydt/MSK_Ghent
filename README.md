@@ -15,7 +15,7 @@
 - [Google Speech API](https://cloud.google.com/speech/?hl=nl)
 - [Mongoose](http://mongoosejs.com/)
 
-```this project is hosted on heroku so it may take a while to load```
+> this project is hosted on heroku so it may take a while to load
 
 ## Made with 
 ### Yves 
