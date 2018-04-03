@@ -1,5 +1,5 @@
 # [MSK Gent Campagin](https://salty-refuge-78411.herokuapp.com/story)
-#### A campaign to attract people to art, specifically to the MSK museum in Ghent 
+> A campaign to attract people to art, specifically to the MSK museum in Ghent 
 
 ```additional```
 </br>
