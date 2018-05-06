@@ -1,0 +1,6 @@
+@font-face {
+  font-family: denmark;
+  src: url(Denmark_04_Bold.otf) format('opentype'), url(raleway.woff) format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
